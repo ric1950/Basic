@@ -3,9 +3,9 @@ This is my first GitHub project.
 
 The Basic Plugin tests various basic features I am learning to develop and various functions needed to run a plugin.
 
-* Reading and writing from a config.yml file
+*  Reading and writing from a config.yml file
 *  Permissions based commands using the Permissions plugin
-* Scheduled Tasks
-* Using a hashSet to determine if a player has used a command.
-* Setting up a scheduled task to disable a player from using a command for a set period of time.
-* Set up Listener classes for player and block events
+*  Scheduled Tasks
+*  Using a hashSet to determine if a player has used a command.
+*  Setting up a scheduled task to disable a player from using a command for a set period of time.
+*  Set up Listener classes for player and block events
