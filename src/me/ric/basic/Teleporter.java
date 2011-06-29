@@ -1,5 +1,5 @@
 package me.ric.basic;
-
+// This has been taken as is from the plugin TelePlus - tkelly910 - https://github.com/tkelly910/TelePlus
 import java.util.ArrayList;
 
 import org.bukkit.*;
