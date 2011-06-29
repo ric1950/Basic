@@ -1,0 +1,16 @@
+name: Basic
+main: me.ric.basic.Basic
+version: 1.5
+description: >
+                    Basic. A test plugin.
+commands:
+  tp:
+    description: 'Command for teleporting'
+    usage: '/<command> [args]'
+  plugin:
+    description: 'Command for managing plugins'
+    usage: '/<command> [args]'
+  test:
+    description: 'Test command'
+    usage: '/<command>'
+    
