@@ -78,8 +78,8 @@ public class Basic extends JavaPlugin {
 
         scheduler = getServer().getScheduler();
         
-//    	scheduler.scheduleSyncRepeatingTask(this, new TestTimerTask(), 10, 20 * REFRESH_TIMER);
-//    	scheduler.scheduleSyncRepeatingTask(this, new SecondTimerTask(), 10, 20 * (REFRESH_TIMER-13));
+    	scheduler.scheduleSyncRepeatingTask(this, new TestTimerTask(), 10, 20 * REFRESH_TIMER);
+    	scheduler.scheduleSyncRepeatingTask(this, new SecondTimerTask(), 10, 20 * (REFRESH_TIMER-13));
     }
 
 	public void setupPermissions() {
