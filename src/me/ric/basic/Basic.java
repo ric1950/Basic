@@ -70,14 +70,12 @@ public class Basic extends JavaPlugin {
         pm.registerEvent(Event.Type.PLAYER_QUIT, playerListener, Priority.Normal, this);
         pm.registerEvent(Event.Type.BLOCK_PLACE, blockListener, Priority.Normal, this);
 //        pm.registerEvent(Event.Type.BLOCK_CANBUILD, blockListener, Priority.Normal, this);
-//        pm.registerEvent(Event.Type.PLAYER_MOVE, playerListener, Priority.Normal, this);
+        pm.registerEvent(Event.Type.PLAYER_MOVE, playerListener, Priority.Normal, this);
 //        pm.registerEvent(Event.Type.PLAYER_COMMAND_PREPROCESS, playerListener, Priority.Normal, this);
-        // EXAMPLE: Custom code, here we just output some info so we can check all is well
         PluginDescriptionFile pdfFile = this.getDescription();
         System.out.println( "[" + pdfFile.getName() + "] version [" + pdfFile.getVersion() + "] enabled!" );
 
         scheduler = getServer().getScheduler();
-        
     	scheduler.scheduleSyncRepeatingTask(this, new TestTimerTask(), 10, 20 * REFRESH_TIMER);
     	scheduler.scheduleSyncRepeatingTask(this, new SecondTimerTask(), 10, 20 * (REFRESH_TIMER-13));
     }

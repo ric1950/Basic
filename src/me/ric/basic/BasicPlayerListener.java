@@ -35,8 +35,6 @@ public class BasicPlayerListener extends PlayerListener {
         Location to = event.getTo();
         if (Math.floor(from.getX()) != Math.floor(to.getX() ) ) {
         	event.getPlayer().sendMessage(String.format("From %.2f,%.2f,%.2f to %.2f,%.2f,%.2f", from.getX(), from.getY(), from.getZ(), to.getX(), to.getY(), to.getZ()));
-
-	        System.out.println(String.format("From %.2f,%.2f,%.2f to %.2f,%.2f,%.2f", from.getX(), from.getY(), from.getZ(), to.getX(), to.getY(), to.getZ()));
         }
     }
 }
